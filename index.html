@@ -1,39 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aggressive Truck & Trailer Shop</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aggressive Truck & Trailer Repair</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+<!-- HERO -->
 <header class="hero">
-  <h1>Aggressive Truck & Trailer Shop</h1>
-  <p>Heavy-Duty Truck & Trailer Repair • 24/7 Service</p>
-  <a href="tel:+1234567890" class="btn">Call Now</a>
+  <img src="logo.png" alt="Aggressive Truck & Trailer Repair Logo" class="logo">
+  <h1>Aggressive Truck & Trailer Repair</h1>
+  <p class="tagline">Downtime Costs Money. We Get You Rolling</p>
+
+  <div class="call-buttons">
+    <a href="tel:+15877204777" class="btn">📞 587-720-4777</a>
+    <a href="tel:+12049987717" class="btn outline">📞 204-998-7717</a>
+  </div>
 </header>
 
+<!-- SERVICES -->
 <section class="services">
   <h2>Our Services</h2>
   <ul>
-    <li>Truck Repair</li>
-    <li>Trailer Repair</li>
-    <li>Brake & Suspension</li>
-    <li>Engine Diagnostics</li>
-    <li>Roadside Assistance</li>
+    <li>🚨 24/7 Roadside Repairs</li>
+    <li>🚚 Fleet Maintenance</li>
+    <li>📋 DOT Inspections</li>
+    <li>🔧 Trailer & Tractor Repairs</li>
+    <li>⚙️ Engine Diagnostics</li>
   </ul>
 </section>
 
+<!-- ABOUT -->
+<section class="about">
+  <h2>Why Choose Us</h2>
+  <p>
+    Aggressive Truck & Trailer Repair provides professional mobile and shop
+    services to keep your trucks on the road. We understand that downtime costs
+    money — that’s why we deliver fast, reliable, and aggressive solutions.
+  </p>
+</section>
+
+<!-- CONTACT -->
 <section class="contact">
   <h2>Contact Us</h2>
-  <form>
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Message"></textarea>
-    <button type="submit">Send</button>
+
+  <p class="phones">
+    📞 <a href="tel:+15877204777">587-720-4777</a><br>
+    📞 <a href="tel:+12049987717">204-998-7717</a>
+  </p>
+
+  <!-- REAL FORM (Formspree ready) -->
+  <form action="https://formspree.io/f/XXXXXXX" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <input type="tel" name="phone" placeholder="Phone Number" />
+    <textarea name="message" placeholder="How can we help?" required></textarea>
+    <button type="submit">Send Message</button>
   </form>
 </section>
+
+<footer>
+  <p>© 2026 Aggressive Truck & Trailer Repair</p>
+</footer>
 
 </body>
 </html>
